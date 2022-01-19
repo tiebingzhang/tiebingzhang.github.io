@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pullquotes
+title:  First Post
 excerpt: First post
 ---
 
