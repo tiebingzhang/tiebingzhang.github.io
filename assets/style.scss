@@ -691,9 +691,38 @@ Modules - reusable parts of our design
   line-height: 0;
 }
 
-.post-tags {
-  text-align: center;
-  line-height: 35px;
+.post-meta {
+  margin-bottom: 15px;
+}
+
+.post-date {
+  color: #666;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.category, .tag {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2px 4px 2px 0;
+  font-size: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.category {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.category:hover {
+  background-color: #bbdefb;
+  color: #0d47a1;
+}
+
+.tag {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
 }
 
 .post-tags a {
